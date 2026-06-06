@@ -450,11 +450,11 @@ nav {
     overflow: hidden;
     margin-bottom: 15px;
 }
-
 .prod-img-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* Esto asegura que la imagen completa sea visible */
+    background-color: #fbf9f4; /* Opcional: define un color de fondo si la imagen no llena todo el cuadro */
 }
 
 .proximamente-card .prod-img-box i {
